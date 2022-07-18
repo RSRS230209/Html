@@ -1,0 +1,140 @@
+<HTML> 
+<head>
+
+<hr>
+<h1 style= "color:0013FF;font-size:60px;text-align:center;border: 4px solid black;
+  outline: yellow solid 8px;
+  margin: auto;  
+  padding: 20px;">HOLIDAY HOMEWORK</h1>
+<hr>
+
+<style>                                                                
+<body>
+</style>
+
+<h2 style= "color:darkgreen;font-size:30px;text-align:center;border: 2px solid purple;">To Solve Numerical Based On Equations Of Motion!<h1>
+
+<p>
+We use physics in our daily life activities such as walking, cutting, watching, cooking, and opening and closing things. Physics is one of the most elementary sciences that contributes directly to the development of science and the development of new technologies. This Site is all bout Physics and It will Help you understand some thing even better...
+</p>
+
+
+<h2 style= "color:DodgerBlue;text-align:center;">
+ THE MAIN EQUATIONS OF MOTIONS ARE -
+</h2>
+
+<br></br>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: yellow;
+  color: blue;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: LavenderBlush; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: pink;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+
+<button class="accordion">v=u+at</button>
+<div class="panel">
+  <p> Consider a body of mass “m” having initial velocity “u”. </p>
+  <p> Let after time “t” its final velocity becomes “v” due to uniform acceleration “a”. </p>
+  <p> Now we know that:</p>
+  <p> Acceleration (a) = changing in velocity/time </p>
+  <p> We can now write</p>
+  <p> a - (v-u)/t </p>
+  <p> Or,</p>
+  <p> v−u=at</p>
+  <p> Or,v=u+at</p>
+</div>
+
+<button class="accordion">s=ut+1/2at^2</button>
+<div class="panel">
+  <p>Suppose a body has an initial velocity 'u' and a uniform acceleration 'a' for time 't' so that its final velocity becomes 'v'. Let the distance travelled by the body in this time be 's'. The distance travelled by a moving body in time 't' can be found out by considering its average velocity. Since the initial velocity of the body is 'u' and its final velocity is 'v', the average velocity is given by  </p>
+<p> Avg. Velocity = displacement/total time</p>
+</div>
+
+<button class="accordion">v^2 =u^2+2as</button>
+<div class="panel">
+  <p>t=(v – u)/a</p>
+  <p>Substitute the value of t in equation (1)</p>
+  <p>2as = 2u(v − u) + (v − u)^2</p>
+  <p> 2as = 2uv − 2u^2 + v^2 − 2uv + u^2 </p>
+  <p> 2as = v^2 − u^2 </P>
+  <p> v^2 = u^2 + 2as </p>
+  </div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+<p style="color:indigo;font-size:20px">
+Equations of motion
+The equations of motion relate to the following five quantities:
+</p>
+
+<p><li>u - initial velocity</li></p>
+<p><li> v - final velocity </li></p>
+<p><li> a - acceleration </li></p>
+<p><li> t - time </li></p>
+<p><li>s - displacement and distance</li> </p>
+
+</h2>
+
+<p style="color:indigo;font-size:20px">
+Of the above u, v, a, and s(displacment)are vector quantities. As such, remember to make vectors going in one direction positive and vectors in the opposite direction negative.
+
+Time (t) and Distance(s)are scalar quantities.
+
+If any three of the five quantities are known then the other two may be calculated using the following three equations:
+</p>
+
+
+<p style="color:indigo;font-size:20px">
+for example :- In a question u,a and t is given then we use the first equation in which only v unknown.like wise we use the equations as asked in the questions given
+</p>
+
+<p style= "color:DarkMagenta;font-size:20px"> Here's The Wikipedia to start with - Scroll to know more! </p>
+
+<iframe src="https://en.wikipedia.org/wiki/Motion#Equations_of_motion" width="50%" height="10%" style="border: 3px solid #f9f9fb; width: 95%; height: 70%;" allowfullscreen></iframe>
+
+
+<h2 style= "text-align:right;">
+ Reyansh Saxena
+</h2>
+
+</head>
+</HTML
